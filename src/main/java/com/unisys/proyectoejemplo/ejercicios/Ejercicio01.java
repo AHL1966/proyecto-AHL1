@@ -11,8 +11,6 @@ Declara una variable llamada suma: que sea la suma de gasol y marianico, y sáca
  */
 
 public class Ejercicio01 {
-
-
     public static void main(String[] args) {
         int numero;
         short marianico=10;
