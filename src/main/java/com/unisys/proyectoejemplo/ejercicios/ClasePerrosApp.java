@@ -8,10 +8,10 @@ public class ClasePerrosApp {
     ClasePerros otto = new ClasePerros();
     System.out.println("La raza de otto es: "+otto.raza);
     otto.raza = "Pastor Aleman";
-    System.out.println("La raza de toby es: "+toby.raza);
+    System.out.println("La raza de toby es: "+toby.getRaza());
     System.out.println("La raza de otto es: "+otto.raza);
     ClasePerros fluky = new ClasePerros("Pastor de Aguas");
     System.out.println("La raza de fluky es: "+fluky.raza);
-
+    System.out.println("La raza de fluky es: "+fluky.toString());
     }
 }
