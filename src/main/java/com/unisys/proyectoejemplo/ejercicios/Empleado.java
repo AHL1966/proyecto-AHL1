@@ -1,14 +1,16 @@
 package com.unisys.proyectoejemplo.ejercicios;
 
 public class Empleado extends Persona{
-    public Integer sueldo;
+    protected Integer sueldo;
     public String cargo;
 
+/*
     public Empleado() {
         super();
         this.sueldo = 0;
         this.cargo = "";
     }
+*/
 /*
     public Empleado(Integer sueldo, String cargo) {
         super();
@@ -42,5 +44,16 @@ public class Empleado extends Persona{
 
     public void setCargo(String cargo) {
         this.cargo = cargo;
+    }
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "cargo='" + cargo + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", edad=" + edad +
+                ", dni='" + dni + '\'' +
+                ", tlf='" + tlf + '\'' +
+                '}';
     }
 }

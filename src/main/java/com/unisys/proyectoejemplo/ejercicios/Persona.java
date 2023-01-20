@@ -3,16 +3,16 @@ package com.unisys.proyectoejemplo.ejercicios;
 public class Persona {
     public String apellido;
     public Integer edad;
-    public String nombre;
+    private String nombre;
     public String dni;
     public String tlf;
 
     public Persona(String apellido, Integer edad, String nombre, String dni, String tlf) {
-        apellido = apellido;
-        edad = edad;
-        nombre = nombre;
-        dni = dni;
-        tlf = tlf;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.nombre = nombre;
+        this.dni = dni;
+        this.tlf = tlf;
     }
 
     public Persona() {
@@ -63,4 +63,14 @@ public class Persona {
         this.tlf = tlf;
     }
 
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "apellido='" + apellido + '\'' +
+                ", edad=" + edad +
+                ", nombre='" + nombre + '\'' +
+                ", dni='" + dni + '\'' +
+                ", tlf='" + tlf + '\'' +
+                '}';
+    }
 }
