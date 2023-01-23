@@ -1,7 +1,7 @@
 package com.unisys.proyectoejemplo.ejercicios;
 
 public class Empleado extends Persona{
-    protected Integer sueldo;
+    public Integer sueldo;
     public String cargo;
 
 /*
