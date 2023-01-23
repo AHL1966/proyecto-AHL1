@@ -1,6 +1,8 @@
-package com.unisys.proyectoejemplo.ejercicios;
+package com.unisys.proyectoejemplo.MainPE;
 
-import java.sql.SQLOutput;
+import com.unisys.proyectoejemplo.ejercicios.Currito;
+import com.unisys.proyectoejemplo.ejercicios.Empleado;
+import com.unisys.proyectoejemplo.ejercicios.Jefe;
 
 public class ProgramaEmpleados {
     public static void main(String[] args) {
