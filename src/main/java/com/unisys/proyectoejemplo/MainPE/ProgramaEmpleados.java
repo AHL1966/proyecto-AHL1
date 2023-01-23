@@ -1,6 +1,8 @@
-package com.unisys.proyectoejemplo.ejercicios;
+package com.unisys.proyectoejemplo.MainPE;
 
-import java.sql.SQLOutput;
+import com.unisys.proyectoejemplo.ejercicios.Currito;
+import com.unisys.proyectoejemplo.ejercicios.Empleado;
+import com.unisys.proyectoejemplo.ejercicios.Jefe;
 
 public class ProgramaEmpleados {
     public static void main(String[] args) {
@@ -36,12 +38,12 @@ public class ProgramaEmpleados {
         System.out.println("emleado2: "+empleado2.getNombre());
         //
         jefe1.setSueldo(999999); // tengo acceso al sueldo aunque sea protected
-        jefe1.sueldo = 888888; // tengo acceso al sueldo aunque sea protected
+        jefe1.setSueldo(888888) ; // tengo acceso al sueldo aunque sea protected
         System.out.println("jefe1: "+jefe1.toString());
         System.out.println("jefe1: "+jefe1.getSueldo());
         //
         currito1.setSueldo(999999); // tengo acceso al sueldo aunque sea protected
-        currito1.sueldo = 888888; // tengo acceso al sueldo aunque sea protected
+        currito1.setSueldo(888888); // tengo acceso al sueldo aunque sea protected
         System.out.println("jefe1: "+currito1.toString());
         System.out.println("jefe1: "+currito1.getSueldo());
 
